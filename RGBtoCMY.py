@@ -18,6 +18,7 @@ mainframe.grid(column=0, row=0)
 root.columnconfigure(0, weight=1)
 root.rowconfigure(0, weight=1)
 
+#RGB
 Red = StringVar()
 Red_label = ttk.Label(mainframe, width=7, text="Red")
 Red_label.grid(column=1, row=1)
@@ -36,6 +37,7 @@ Blue_label.grid(column=1, row=3)
 Blue_entry = ttk.Entry(mainframe, width=7, textvariable=Blue)
 Blue_entry.grid(column=2, row=3)
 
+#CMY
 Cyan = StringVar()
 Cyan_label = ttk.Label(mainframe, width=7, text="Cyan")
 Cyan_label.grid(column=4, row=1)
