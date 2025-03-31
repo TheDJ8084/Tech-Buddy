@@ -1,3 +1,4 @@
+import tkinter
 from tkinter import *
 from tkinter import ttk
 
@@ -9,6 +10,8 @@ def calculate(*args):
 
 root = Tk()
 root.title("RGB to CMY")
+photo = tkinter.PhotoImage(file="Media/Images/TBL.png")
+root.wm_iconphoto(False, photo)
 
 mainframe = ttk.Frame(root, padding="3 3 12 12")
 mainframe.grid(column=0, row=0)
